@@ -1,4 +1,4 @@
-import { Coin, Coins } from "@terra-money/terra.js"
+import { Coin, Coins } from "orbitium.js"
 import { sentenceCase } from "sentence-case"
 
 export const formatCoins = (data: Coins.Data) => data.map(formatCoin).join(",")

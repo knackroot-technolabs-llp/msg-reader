@@ -18,7 +18,7 @@ const {
   CommunityPoolSpendProposal,
   ParameterChangeProposal,
   ParamChange,
-} = require("@terra-money/terra.js")
+} = require("orbitium.js")
 const {
   CancelSoftwareUpgradeProposal,
   SoftwareUpgradeProposal,
